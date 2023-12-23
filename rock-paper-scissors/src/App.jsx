@@ -28,7 +28,7 @@ function App() {
 
 
 
-  const gamer =  (playerMove) => { 
+  const game =  (playerMove) => { 
 
     const computerMove = {
       get numero() {
@@ -49,21 +49,28 @@ function App() {
     }
     if(computerMoveType === playerMove) {
       return setWinner('draw');
-    } 
+    }
+
+    const validationPlayer = possibleMoves.find((current) => current.type === playerMove);
+
+    const isPlayerWinner = validationPlayer.wins != computerMoveType
+
+    isPlayerWinner ? setWinner('Player') : setWinner('Computer');  
+  }
 
   return (
       <div>
-        <button onClick={() => gamer('rock')}>rock</button>
-        <button onClick={() => gamer('paper')}>paper</button>
-        <button onClick={() => gamer('scissors')}>scissors</button>
+        <button onClick={() => game('rock')}>rock</button>
+        <button onClick={() => game('paper')}>paper</button>
+        <button onClick={() => game('scissors')}>scissors</button>
         <h1>{winner}</h1>
-        <p>{gamer()}</p>
         <h3>You: 0</h3>
         <h3>Computer: 0</h3>
       </div>
 
   )
-  }
+  
 }
+
 
 export default App;
