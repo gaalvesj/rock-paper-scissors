@@ -53,9 +53,13 @@ function App() {
 
     const validationPlayer = possibleMoves.find((current) => current.type === playerMove);
 
-    const isPlayerWinner = validationPlayer.wins != computerMoveType
+    const isPlayerWinner = validationPlayer.wins === computerMoveType
 
-    isPlayerWinner ? setWinner('Player') : setWinner('Computer');  
+    isPlayerWinner ? setWinner('Player') : setWinner('Computer');
+    
+    console.log(computerMoveType);
+    console.log(playerMove);
+    console.log(isPlayerWinner);
   }
 
   return (
