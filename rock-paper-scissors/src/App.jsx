@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 function App() {
+  const [ winner, setWinner] = useState('')
   const [possibleMoves, setPossibleMoves] = useState([
     {
       type: 'paper',
@@ -27,9 +28,7 @@ function App() {
 
 
 
-  const game =  (playerMove) => { 
-    console.log(playerMove);
-
+  const gamer =  (playerMove) => { 
 
     const computerMove = {
       get numero() {
@@ -45,21 +44,26 @@ function App() {
         computerMoveType = 'rock'
       break;
       case 3:
-        computerMoveType = 'scissor';
+        computerMoveType = 'scissors';
       break;
     }
-  }
+    if(computerMoveType === playerMove) {
+      return setWinner('draw');
+    } 
 
   return (
       <div>
-        <button onClick={() => game('rock')}>rock</button>
-        <button onClick={() => game('paper')}>paper</button>
-        <button onClick={() => game('scissor')}>scissor</button>
+        <button onClick={() => gamer('rock')}>rock</button>
+        <button onClick={() => gamer('paper')}>paper</button>
+        <button onClick={() => gamer('scissors')}>scissors</button>
+        <h1>{winner}</h1>
+        <p>{gamer()}</p>
         <h3>You: 0</h3>
         <h3>Computer: 0</h3>
       </div>
 
   )
+  }
 }
 
-export default App
+export default App;
