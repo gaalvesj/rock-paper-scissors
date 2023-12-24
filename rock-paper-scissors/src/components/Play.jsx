@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -25,6 +26,14 @@ function Play() {
         }
     
       ]);
+
+      const navigate = useNavigate();
+    
+    const  handlerClick = () => {
+        
+        navigate('/game');
+    }
+
     
       
     
@@ -66,8 +75,8 @@ function Play() {
         <button onClick={() => game('rock')}>rock</button>
         <button onClick={() => game('paper')}>paper</button>
         <button onClick={() => game('scissors')}>scissors</button>
-        {/* <button onClick={}> Ver ganhador!</button> */}
         <h1>{winner}</h1>
+        <button onClick={() =>handlerClick() }> Score </button>
         </div>
         
       )
