@@ -66,6 +66,7 @@ function Play() {
         <button onClick={() => game('rock')}>rock</button>
         <button onClick={() => game('paper')}>paper</button>
         <button onClick={() => game('scissors')}>scissors</button>
+        {/* <button onClick={}> Ver ganhador!</button> */}
         <h1>{winner}</h1>
         </div>
         
