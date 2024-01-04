@@ -8,7 +8,7 @@ function Home() {
 
     return(
         <div>
-            <h1>
+            <h1 className="p-4">
                 Jan-Ken-Pon
             </h1>
             <p>

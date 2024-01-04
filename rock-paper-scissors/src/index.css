@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background: linear-gradient(135deg, #fff, #ccc);
+  height: 100%;
+}
+
+h1 {
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.time-wrapper {
+  position: relative;
+  width: 80px;
+  height: 60px;
+  font-size: 48px;
+  font-family: "ARIAL";
+}
+
+.time-wrapper .time {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.time-wrapper .time.up {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.time-wrapper .time.down {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.container,
+.control {
+  border: 1px solid;
+  border-color: #777;
+}
+.container {
+  width: 45%;
+}
+.game-table {
+  height: 16rem;
+  border: 1px solid;
+  border-color: #777;
+}
