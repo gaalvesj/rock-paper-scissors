@@ -6,6 +6,7 @@ import { useState } from "react";
 function Play() {
 
     const [winner, setWinner] = useState('')
+    const [score, setScore] = useState(0)
     const [possibleMoves, setPossibleMoves] = useState([
         {
           type: 'paper',
@@ -28,16 +29,12 @@ function Play() {
     
       ]);
 
+      const computerMove = { get number() {return Math.floor(Math.random() * 3) + 1 } };
+
 
      const game =  (playerMove) => { 
-    
-        const computerMove = {
-          get numero() {
-              return Math.floor(Math.random() * 3) + 1;
-          }
-      };
       let computerMoveType = ''
-        switch(computerMove.numero){
+        switch(computerMove.number){
           case 1: 
             computerMoveType = 'paper'
           break;
@@ -52,12 +49,19 @@ function Play() {
           return setWinner('draw');
         }
     
-        const validationPlayer = possibleMoves.find((current) => current.type === playerMove);
+        const validationPlayer = possibleMoves.find((e) => e.type === playerMove);
     
         const isPlayerWinner = validationPlayer.wins === computerMoveType
     
-        isPlayerWinner ? setWinner('Player') : setWinner('Computer');
-          
+
+        if(isPlayerWinner){
+          setWinner('Player')
+          setScore(score +1)
+        }
+        else {
+          setWinner('Computer')
+        }
+
       }
 
       return (
@@ -65,6 +69,10 @@ function Play() {
         <button onClick={() => game ('rock')}>rock</button>
         <button onClick={() => game ('paper')}>paper</button>
         <button onClick={() => game ('scissors')}>scissors</button>
+        <h1>
+        {setPossibleMoves}
+        {score}
+        </h1>
         <h1>
             {winner}
         </h1>
