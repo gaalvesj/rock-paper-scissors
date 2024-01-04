@@ -9,8 +9,11 @@ function Home() {
     return(
         <div>
             <h1>
-                Hello
+                Jan-Ken-Pon
             </h1>
+            <p>
+                Are you redy for a play?
+            </p>
             <button onClick={() => { handlerClick() }}>Go to game</button>
             
         </div>
