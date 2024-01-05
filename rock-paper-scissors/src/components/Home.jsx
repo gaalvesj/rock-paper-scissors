@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { StyledButton } from "../styles/styledComponents"
 
 
 function Home() {
@@ -7,14 +8,14 @@ function Home() {
     const  handlerClick = () => { navigate('/game') }
 
     return(
-        <div>
-            <h1 className="p-4">
+        <div className="flex flex-col place-items-center ">
+            <h1 className="text-2xl font-bold">
                 Jan-Ken-Pon
             </h1>
-            <p>
-                Are you redy for a play?
-            </p>
-            <button onClick={() => { handlerClick() }}>Go to game</button>
+            <h1 className="text-lg font-bold size-1.2">
+                 You redy for a play?
+            </h1>
+            <StyledButton onClick={() => { handlerClick() }}>Go to game</StyledButton>
             
         </div>
     )
