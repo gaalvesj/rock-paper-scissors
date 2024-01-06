@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import { StyledButton } from "../styles/styledComponents"
 
 function Modal() {
 const navigate = useNavigate();
@@ -8,12 +8,12 @@ const handleClickBack = () =>{
     navigate('/game')
 }
     return (
-        <div>
+        <div className=" flex justify-center flex-col place-items-center">
 
-        <li>   Pedra ganha da tesoura (amassando-a ou quebrando-a).</li> 
-        <li>  Tesoura ganha do papel (cortando-o).</li> 
-        <li>  Papel ganha da pedra (embrulhando-a).</li>
-        <button onClick={handleClickBack}>Back</button> 
+        <li>   Rocks wins scissors </li> 
+        <li>   Paper wins rocks</li> 
+        <li>  Scissors wins paper</li>
+        <StyledButton onClick={handleClickBack}>I Understood!</StyledButton> 
 
 
         </div>

@@ -7,6 +7,7 @@ import Modal from './components/Modal';
 function App() {
  
   return (
+      <>
       <Router>
         <Routes>
          <Route exact path='/' element={<Home />} />
@@ -14,6 +15,8 @@ function App() {
          <Route exact path='/rules' element={<Modal />} />
         </Routes>
       </Router  >
+      </>
+
 
   )
   
