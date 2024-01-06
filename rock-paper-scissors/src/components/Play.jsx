@@ -1,6 +1,5 @@
 import Footer from "./Footer";
 import { useState } from "react";
-import { StyledButton } from "../styles/styledComponents"
 
 
 
