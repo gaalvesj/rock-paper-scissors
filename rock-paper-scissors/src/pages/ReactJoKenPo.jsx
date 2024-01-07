@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Game from './components/Game'
-import Home from './components/Home';
-import Modal from './components/Modal';
+import Game from '../components/Game'
+import Home from '../components/Home';
+import Modal from '../components/Modal';
 
 
 function ReactJoKenPo() {
