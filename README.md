@@ -27,4 +27,4 @@ ________________________________________________________________________________
 
 # Jo Ken Po Game in React
 
-<img scr="[[https://github.com/gaalvesj/rock-paper-scissors/blob/main/img/home-screen2|alt=Home]]" alt="Home Screen" style="max-width: 100%;" />
+<img scr="gaalvesj/rock-paper-scissors/blob/main/img/home-screen2" alt="Home Screen" style="max-width: 100%;" />
