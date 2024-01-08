@@ -8,7 +8,7 @@ ________________________________________________________________________________
     <a href="#2-components">Components</a>
   </li>
   <li>
-    <a href="#3-gameLogic">Game Logic</a>
+    <a href="#3-game">Game Logic</a>
   </li>
   <li>
     <a href="#4-projectStructure">projectStructure</a>
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 </ul>
 
 # 3. Game Logic
-<ul href="#3-gameLogic">
+<ul href="#3-game">
 <li><strong>
   Move Type:</strong>  A standardized type for controlling moves.
 </li>
