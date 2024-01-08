@@ -86,6 +86,6 @@ ________________________________________________________________________________
 
 # 8. Contact me
 <ul>
-<li href="#7-contact"><strong>Maintainer: </strong>Gabriel Alves de Jesus</li>
+<li><strong>Maintainer: </strong><a href="#7-contact">Gabriel Alves de Jesus</a></li>
 <li><strong>Email: </strong> gabrielalves3654@gmail.com</li>
 </ul>
