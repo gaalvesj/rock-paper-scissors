@@ -27,5 +27,4 @@ ________________________________________________________________________________
 
 # Jo Ken Po Game in React
 
-<img scr="gaalvesj/rock-paper-scissors/assets/23504396/62f69594-7f95-4a34-965e-8b2a55fddc34)
-" style="max-width: 100%;" />
+<img scr="gaalvesj/rock-paper-scissors/assets/23504396/62f69594-7f95-4a34-965e-8b2a55fddc34)" alt="Home Screen" style="max-width: 100%;" />
