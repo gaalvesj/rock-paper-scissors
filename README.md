@@ -8,16 +8,16 @@ ________________________________________________________________________________
     <a href="#2-components">Components</a>
   </li>
   <li>
-    <a href="#3-game">Game Logic</a>
+    <a href="#3-game-logic">Game Logic</a>
   </li>
   <li>
-    <a href="#4-projectStructure">projectStructure</a>
+    <a href="#4-project-structure">projectStructure</a>
   </li>
   <li>
     <a href="#5-deployment">Deployment</a>
   </li>
   <li>
-    <a href="#6-howToRun">how to run/</a>
+    <a href="#6-how-to-run">how to run</a>
   </li>
   <li>
     <a href="#7-contact">Contact</a>
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 </ul>
 
 # 3. Game Logic
-<ul href="#3-game">
+<ul href="#3-game-logic">
 <li><strong>
   Move Type:</strong>  A standardized type for controlling moves.
 </li>
@@ -62,4 +62,30 @@ ________________________________________________________________________________
 <li><strong>
   useNavigate: </strong>Handler click the first button(Go game).
 </li>
+</ul>
+
+
+# 4. Project Structure
+<ul href="#4-project-structure">
+<li><strong>Game: </strong>it handles the game layout.</li>
+<li><strong>Home: </strong>Includes instructions and a modal for additional information</li>
+<li><strong>Rule: </strong>The game runs in matches of three rounds, and the player who wins three rounds first wins the match.</li>
+<li><strong>Hooks: </strong>Created hooks for opening/closing the game and showing/hiding the modal.</li>
+</ul>
+
+# 5. Deployment
+<p href="#5-deployment">The project is deployed on Vercel. During deployment, there were some issues due to a deprecated type of react.</p>
+
+# 6. How to Run Locally
+<a href="#6-how-to-run">To run the project locally, follow these steps:</a>
+<ol dir="auto">
+  <li>Clone the repository: <code>git@github.com:gaalvesj/rock-paper-scissors.git</code></li>
+  <li>Install all dependecies: <code>npm install</code></li>
+  <li>Start the development server: <code>npm run dev</code></li>
+</ol>
+
+# 8. Text for me
+<ul href="#7-contact">
+<li><strong>Maintainer: </strong>Gabriel Alves de Jesus</li>
+<li><strong>Email: </strong> gabrielalves3654@gmail.com</li>
 </ul>
