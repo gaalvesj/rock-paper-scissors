@@ -25,5 +25,6 @@ ________________________________________________________________________________
 
 </ol>
 
+# Jo Ken Po Game in React
 
-#Jo Ken Po Game in React
+<img scr="" alt="home Screen" style="max-width: 100%;"
