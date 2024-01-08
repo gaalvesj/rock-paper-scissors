@@ -35,3 +35,32 @@ ________________________________________________________________________________
 
 # 1. Overview 
 <p  href="#1-overview" >This project is a React-based implementation of the classic Jan Ken Pon (Rock, Paper, Scissors) game. It includes features such as a timer for move showing, dynamic display of player and computer moves, game status tracking, and a responsive layout. The project utilizes react-icons, react-toastify, and Tailwind for styling.</p>
+
+# 2. Components
+<ul href="#2-components">
+<li><strong>Home: Displays the name of the game.</strong></li>
+<li><strong>Main: Encompasses all application components.</strong></li>
+<li><strong>Footer: Show the button for rules. </strong></li>
+<li><strong>Modal: Rules of game. </strong></li>
+<li><strong>Play: All logic of the game. </strong></li>
+</ul>
+
+# 3.Game Logic
+<ul href="#3-gameLogic">
+<li><strong>
+  Move Type:  A standardized type for controlling moves.
+</strong></li>
+<li><strong>
+  Game(playerMove) function: Calculates the game result. 
+</strong></li>
+<li><strong>
+  ComputerMove: Generates a random move for the computer.
+ </strong></li>
+<li><strong>
+  Logic: Implements the game logic using states such as playerWin,     machineWin, playerMove, machineMove, and score.
+ </strong></li>
+<li><strong>
+  useNavigate: Handler click the first button(Go game).
+</strong></li>
+
+</ul>
