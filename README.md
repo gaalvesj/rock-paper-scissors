@@ -84,8 +84,8 @@ ________________________________________________________________________________
   <li>Start the development server: <code>npm run dev</code></li>
 </ol>
 
-# 8. Text for me
-<ul href="#7-contact">
-<li><strong>Maintainer: </strong>Gabriel Alves de Jesus</li>
+# 8. Contact me
+<ul>
+<li href="#7-contact"><strong>Maintainer: </strong>Gabriel Alves de Jesus</li>
 <li><strong>Email: </strong> gabrielalves3654@gmail.com</li>
 </ul>
