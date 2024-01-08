@@ -38,29 +38,28 @@ ________________________________________________________________________________
 
 # 2. Components
 <ul href="#2-components">
-<li><strong>Home: Displays the name of the game.</strong></li>
-<li><strong>Main: Encompasses all application components.</strong></li>
-<li><strong>Footer: Show the button for rules. </strong></li>
-<li><strong>Modal: Rules of game. </strong></li>
-<li><strong>Play: All logic of the game. </strong></li>
+<li><strong>Home:</strong> Displays the name of the game.</li>
+<li><strong>Main:</strong> Encompasses all application components.</li>
+<li><strong>Footer:</strong> Show the button for rules. </li>
+<li><strong>Modal:</strong> Rules of game. </li>
+<li><strong>Play:</strong> All logic of the game. </li>
 </ul>
 
-# 3.Game Logic
+# 3. Game Logic
 <ul href="#3-gameLogic">
 <li><strong>
-  Move Type:  A standardized type for controlling moves.
-</strong></li>
+  Move Type:</strong>  A standardized type for controlling moves.
+</li>
 <li><strong>
-  Game(playerMove) function: Calculates the game result. 
-</strong></li>
+  Game(playerMove) function:</strong> Calculates the game result. 
+</li>
 <li><strong>
-  ComputerMove: Generates a random move for the computer.
- </strong></li>
+  ComputerMove:</strong> Generates a random move for the computer.
+ </li>
 <li><strong>
-  Logic: Implements the game logic using states such as playerWin,     machineWin, playerMove, machineMove, and score.
- </strong></li>
+  Logic:</strong> Implements the game logic using states such as playerWin,     machineWin, playerMove, machineMove, and score.
+ </li>
 <li><strong>
-  useNavigate: Handler click the first button(Go game).
-</strong></li>
-
+  useNavigate: </strong>Handler click the first button(Go game).
+</li>
 </ul>
